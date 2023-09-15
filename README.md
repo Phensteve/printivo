@@ -1,2 +1,2 @@
-# dlhstuckshop
-Website for DLHS Automated tuckshop
+# printivo_clone
+Level 1 project
