@@ -1,0 +1,181 @@
+
+body{
+    font-family: calibri,arial;
+    margin: auto;
+    height: auto;
+    header{
+        align-items: center !important;
+        nav{                
+            height: 64px;
+            position: relative;
+            display: flex;
+            padding-left: 55px;
+            background-color: #f7f6f4;
+            align-items: center !important;
+            // justify-content: center;
+            div{
+                height: 64px;
+                position: fixed;
+                align-items: center;
+                list-style-type: none;
+                background-color: #f7f6f4;
+                span{
+                align-items: center !important;
+            // display: grid;
+                    // grid-template-columns: 1fr 1fr;
+                    .nav_text{
+                        font-family: 'SF Pro';
+                        font-size: 9.5pt;
+                        text-decoration: none;
+                        flex-wrap: nowrap;
+                        color: #506683;
+                    }
+                    .span:nth-child(1){
+                        // display: grid;
+            align-items: center !important;
+            // grid-template-columns: 1fr 1fr 1fr;
+                        justify-content: flex-start !important;
+                    }
+                    .span:nth-child(2){
+                        justify-content: flex-start !important;
+            align-items: center !important;
+            // display: grid;
+                        // grid-template-columns: 1fr 1fr 1fr 1fr;
+                    }
+                    .span:nth-child(2) .nav_text:nth-child(2){
+                        color: #1DA1F2;
+                        // margin-left: -50px;
+                    }
+                }
+            }
+            // .end{
+            //     justify-content: flex-end !important;
+            //     float: right;
+            //     align-items: flex-end;
+            //     .nig{
+            //         border: #cbcac8 solid 1px;
+            //         color: #506683;
+            //         border-radius: 35%;
+            //         padding: 10px;
+            //     }
+            // }
+        }
+    }
+    main{
+        height: 30rem;
+        background-color: #ece8d9;
+        padding-top: 25px;
+        padding-left: 70px;
+        .nav{
+            height: 64px;
+            display: flex;
+            .nav_text{
+                font-family: 'SF Pro';
+                margin-right: 2rem;
+                font-size: 11pt;
+                color: #506683;
+                text-decoration: none;
+            }
+            .start{
+                justify-content: flex-start !important;
+                float: left;
+            }
+            .end{
+                justify-content: flex-end !important;
+                float: right;
+                align-items: flex-end;
+                .red{
+                  color: #d77f81;
+                  margin-left: 2.5rem;
+                }
+            }
+        }
+        .flex{
+            .flex1{
+                .title{
+                    font-family: 'Times New Roman', Times, serif;
+                    color: #5f6c7c;
+                    font-weight: 500;
+                    font-size: 70px;
+                }  
+                .mid{
+                    color: #7082a2;
+                }
+            }
+            .flex2{
+                img{
+                    height: 335px;
+                    width: 438px;
+                    float: left;
+                }
+                text-align: end !important;
+                justify-content: end;
+            }
+        }
+    }
+}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_files/styles.css">
+    <link rel="stylesheet" href="_files/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <title>Design and Print Business cards</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span class="span">
+                <a class="nav_text" href=""> Cost Calculator </a>
+                <a class="nav_text" href=""> Discover Stores </a>
+                <a class="nav_text" href=""> Track Orders</a>
+            </span>
+            <span class="span">
+                <a class="nav_text" href="">Need help?</a>
+                <a class="nav_text" href="tel:234.809.108.4333">Call:+2348091084333</a>
+                <a class="nav_text" href="https://wa.me/2348091085333"><img src="_files/whatsapp.svg" alt=""></a>
+                <a class="nav_text" href=""><img src="_files/nigeria.svg" alt="">&nbsp&nbspNigeria</a>
+            </span>
+        </nav>
+    </header>
+    <main>
+        <nav class="nav">
+            <div class="start">
+                <img src="_files/printivo.svg" alt="">
+            </div>
+            <div class="end">
+                <span class="nav_text">All Products</span>
+                <span class="nav_text">Become a reseller</span>
+                <span class="nav_text">Merch Store</span>
+                <span class="nav_text">Marketplace</span>
+                <span class="nav_text red">Sign in</span>
+                <span class="nav_text">All Products</span>
+                <span class="nav_text"><img src="_files/cart.svg" alt=""></span>
+            </div>
+        </nav>
+        <section class="flex">
+            <div class="flex1">
+                <div class="title">Quality Prints</div>
+                <div>Shipped To your doorstep</div>
+                <div>What would you like to print today?</div>
+                <input type="text" placeholder=" Hey" img src="_files/search.svg" alt="">
+            </div>
+            <div class="flex2">
+                <img src="_files/background.png" alt="">
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="_files/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body>
+
+</html>

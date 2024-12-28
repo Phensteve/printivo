@@ -1,0 +1,545 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: SF Pro;
+  overflow-x: hidden;
+}
+body header nav {
+  height: 64px;
+  background-color: #f7f6f4;
+  padding-top: 17px !important;
+  padding-left: 24px !important;
+}
+body header nav .nav_text {
+  font-size: 9.5pt;
+  color: #506683;
+  font-family: "SF Pro";
+  text-decoration: none;
+}
+body header nav section {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 4fr 4fr;
+}
+body header nav .start .nav_text {
+  margin-left: 3rem;
+}
+body header nav .end {
+  text-align: right;
+}
+body header nav .end .nav_text {
+  margin-right: 5rem;
+}
+body header nav .end .nig {
+  padding: 10px;
+  border-radius: 40%;
+  border: #cbcac8 solid 1px;
+}
+body main .section1 {
+  height: 480px;
+  background-color: #ece8d9;
+}
+body main .section1 nav {
+  height: 64px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 0px 0px 80px 0px;
+}
+body main .section1 nav .end {
+  text-align: end;
+}
+body main .section1 nav .end .nav_item .nav_text {
+  font-size: 11pt;
+  color: #384A62;
+  margin-right: 20px;
+  font-family: "SF Pro";
+  text-decoration: none;
+}
+body main .section1 nav .end .nav_item .nav_text:hover {
+  color: #4B6382;
+}
+body main .section1 nav .end .nav_item:nth-child(5) a {
+  color: #d77f81;
+  margin-left: 30px;
+}
+body main .section1 .section {
+  align-items: end !important;
+  display: grid;
+  padding: 0 0 0 70PX;
+  grid-template-columns: 1fr 1fr;
+}
+body main .section1 .section .start {
+  align-self: center;
+  text-align: start;
+}
+body main .section1 .section .start .title {
+  font-weight: 500;
+  font-size: 70px;
+  color: #384A62;
+  font-family: "dm Serif Display";
+}
+body main .section1 .section .start .mid {
+  color: #7082a2;
+  font-size: 24px;
+}
+body main .section1 .section .start .bot {
+  color: #384A62;
+  font-size: 16px;
+}
+body main .section1 .section .start .inp {
+  padding: 30px;
+  width: 40vw;
+  border: transparent;
+}
+body main .section1 .section .start .input_container {
+  max-width: 630px;
+  width: 100%;
+  position: relative;
+}
+body main .section1 .section .start .input_container input {
+  width: 100%;
+  outline: none;
+  padding: 30px 0;
+  text-indent: 20px;
+  border-radius: 4px;
+  font-family: SF Pro;
+  border: 1px solid #e8e8e8;
+}
+body main .section1 .section .start .input_container input::-moz-placeholder {
+  color: #b0b8c2;
+}
+body main .section1 .section .start .input_container input::placeholder {
+  color: #b0b8c2;
+}
+body main .section1 .section .start .input_container button {
+  top: 50%;
+  right: 20px;
+  position: absolute;
+  border: transparent;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+body main .section1 .section .end {
+  text-align: end;
+  align-self: end;
+}
+body main .section1 .section .end img {
+  align-self: end;
+  height: 335px;
+  width: 438px;
+}
+body main .section2 {
+  justify-content: center;
+  text-align: center;
+  background-color: #f3b1cd;
+  padding: 30px 0;
+}
+body main .section2 h3 {
+  color: #454545;
+  font-size: 17px;
+}
+body main .section2 h3 a {
+  color: #454545;
+  font-size: 17px;
+}
+body main .section3 {
+  padding: 45px 30PX;
+}
+body main .section3 .heading {
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+}
+body main .section3 .heading .start h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #384A62;
+}
+body main .section3 .heading .end {
+  text-align: end;
+}
+body main .section3 .heading .end a {
+  font-size: 16px;
+  color: #D77F81;
+  text-decoration: none;
+}
+body main .section3 .card_con {
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+  justify-content: center;
+}
+body main .section3 .card_con .card {
+  cursor: pointer;
+  width: 269px;
+  height: 419px;
+  margin: 10px;
+  border: #e8e8e8 1px solid !important;
+}
+body main .section3 .card_con .card .head {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body main .section3 .card_con .card .head img {
+  width: 269px;
+  height: 225px;
+  transition: 0.2s;
+}
+body main .section3 .card_con .card .head img:hover {
+  transform: scale(1.1);
+}
+body main .section3 .card_con .card .body {
+  padding: 0 20px;
+}
+body main .section3 .card_con .card .body h3 {
+  font-weight: 500;
+  color: 708095;
+  margin: 1rem 0.1rem;
+  font-size: 17px;
+}
+body main .section3 .card_con .card .body p {
+  font-weight: 490;
+  color: #384A62;
+  font-size: 14px;
+}
+body main .section3 .card_con .card .body h6 {
+  font-weight: 500;
+  color: #384A62;
+  margin: 1rem 0.1rem;
+  font-size: 25px;
+}
+body main .section3 .card_con .card .body h6 span {
+  font-weight: 450;
+  color: #384A62;
+  font-size: 14px;
+}
+body main .section3 .card_con .card .foot {
+  padding: 0 20px;
+}
+body main .section3 .card_con .card .foot button {
+  font-family: "SF Pro";
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #ffffff;
+  border: transparent;
+  justify-self: center;
+  background-color: #d77f81;
+}
+body main .section3 .card_con .card .foot button .arrow:hover {
+  animation: arrow 1s 1;
+}
+@keyframes arrow {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: -rem;
+  }
+}
+body main .section4 {
+  padding: 45px 70PX;
+}
+body main .section4 .heading .start h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #384A62;
+}
+body main .section4 .card_con {
+  display: flex;
+  flex-wrap: wrap;
+  padding: auto;
+}
+body main .section4 .card_con .card {
+  cursor: pointer;
+  width: 269px;
+  height: 419px;
+  margin: 10px;
+  border: #e8e8e8 1px solid !important;
+}
+body main .section4 .card_con .card .head {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+body main .section4 .card_con .card .head img {
+  width: 269px;
+  height: 225px;
+  transition: 0.2s;
+}
+body main .section4 .card_con .card .head img:hover {
+  transform: scale(1.1);
+}
+body main .section4 .card_con .card .body {
+  padding: 0 20px;
+}
+body main .section4 .card_con .card .body h3 {
+  font-weight: 500;
+  color: 708095;
+  margin: 1rem 0.1rem;
+  font-size: 17px;
+}
+body main .section4 .card_con .card .body p {
+  font-weight: 490;
+  color: #384A62;
+  font-size: 14px;
+}
+body main .section4 .card_con .card .body h6 {
+  font-weight: 500;
+  color: #384A62;
+  margin: 1rem 0.1rem;
+  font-size: 25px;
+}
+body main .section4 .card_con .card .body h6 span {
+  font-weight: 450;
+  color: #384A62;
+  font-size: 14px;
+}
+body main .section4 .card_con .card .foot {
+  padding: 0 20px;
+}
+body main .section4 .card_con .card .foot button {
+  font-family: "SF Pro";
+  font-size: 14px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #ffffff;
+  border: transparent;
+  justify-self: center;
+  background-color: #d77f81;
+}
+body main .section4 .card_con .card .foot button .arrow:hover {
+  animation: arrow 1s 1;
+}
+@keyframes arrow {
+  from {
+    margin-right: 0;
+  }
+  to {
+    margin-right: -rem;
+  }
+}
+body main .section5 {
+  padding: 45px 70PX;
+}
+body main .section5 .heading h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 650;
+  font-size: 30px;
+  color: #384A62;
+}
+body main .section5 .heading p {
+  font-family: "SF Pro";
+  font-size: 20px;
+  color: #506683;
+}
+body main .section6 {
+  background-color: #edf6fd;
+  padding: 45px 70PX;
+}
+body main .section6 .heading h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #384A62;
+}
+body main .section6 .card_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+body main .section6 .card_con .card {
+  width: 366px;
+  margin: 10px;
+  height: 159px;
+  padding: 10px;
+  display: grid;
+  font-size: 15px;
+  overflow: hidden;
+  font-family: "SF Pro";
+  grid-template-columns: 0.1fr 5fr;
+}
+body main .section6 .card_con .card a {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+body main .section6 .card_con .card .start {
+  margin: 5px;
+}
+body main .section6 .card_con .card .start div {
+  padding: 10px;
+  display: grid;
+  justify-content: center !important;
+  border-radius: 50%;
+  border: #cbcac8 solid 1px;
+}
+body main .section6 .card_con .card .start div img {
+  width: 15px;
+  height: 15px;
+}
+body main .section6 .card_con .card .end {
+  margin: 10px;
+  color: #384A62;
+  text-align: left;
+  justify-content: end;
+}
+body main .section7 {
+  padding: 45px 70PX;
+}
+body main .section7 .heading h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #384A62;
+}
+body main .section7 .card_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+body main .section7 .card_con .card {
+  width: 366px;
+  height: 159px;
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  font-size: 15px;
+  border: transparent;
+  font-family: "SF Pro";
+  grid-template-columns: 0.1fr 5fr;
+}
+body main .section7 .card_con .card a {
+  color: #1DA1F2;
+  text-decoration: none;
+}
+body main .section7 .card_con .card .start {
+  margin: 5px;
+  text-align: start;
+}
+body main .section7 .card_con .card .start div {
+  padding: 10px;
+  justify-content: center !important;
+}
+body main .section7 .card_con .card .end {
+  margin: 10px;
+}
+body main .section7 .card_con .card .end span:nth-child(2) {
+  color: #677F9E;
+  font-size: 15.5px;
+  position: relative;
+  display: block;
+}
+body main .section8 {
+  background-color: #f7f6f4;
+  padding: 45px 70PX;
+}
+body main .section8 .heading h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #384A62;
+}
+body main .section8 .org_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+body main .section8 .org_con .org {
+  margin: 5px;
+  border: transparent;
+  padding: 10px;
+  overflow: hidden;
+  display: grid;
+  font-family: "SF Pro";
+  width: 200px;
+  grid-template-columns: 0.1fr 5fr;
+  font-size: 15px;
+}
+body main .section8 .org_con .org img {
+  height: 25px;
+}
+body main .section8 .org_con .org a {
+  color: #384A62;
+  font-size: 15px;
+}
+body footer .section9 {
+  background-color: #384a62;
+  padding: 70px 30px 30px;
+}
+body footer .section9 .info_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+body footer .section9 .info_con .info {
+  font-family: "SF Pro";
+  font-size: 15px;
+}
+body footer .section9 .info_con .info ul {
+  list-style-type: none;
+  color: #ECE8D9;
+  font-size: 14px;
+}
+body footer .section9 .info_con .info ul .list {
+  display: flex;
+  justify-content: space-between;
+}
+body footer .section9 .info_con .info ul li {
+  padding: 10px;
+}
+body footer .section9 .info_con .info ul li h4 {
+  font-size: 18px;
+}
+body footer .section9 .info_con .info img {
+  height: 25px;
+}
+body footer .section9 .info_con .info a {
+  color: #ECE8D9;
+  font-size: 15px;
+  text-decoration: none;
+}
+body footer .section10 {
+  background-color: #cbcac8;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .other_dev {
+  display: none;
+}
+.bottom {
+  position: fixed;
+  right: 23px;
+  bottom: 5px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  display: block grid !important;
+  z-index: 997;
+}
+
+@media only screen and (max-width: 1250px) {
+  header {
+    display: none;
+  }
+  main {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .other_dev {
+    display: block grid !important;
+    align-items: center !important;
+    margin-top: 40vh;
+    color: #1DA1F2;
+    text-align: center;
+  }
+  .other_dev .bottom {
+    position: fixed;
+    right: 23px;
+    bottom: 5px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+  }
+}/*# sourceMappingURL=styles.css.map */
